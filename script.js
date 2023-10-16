@@ -196,4 +196,5 @@ btnClose.addEventListener("click", function (e) {
     labelWelcome.innerHTML = "Log in to get started";
     containerApp.style.opacity = 0;
   }
+  inputCloseUsername.value = inputClosePin.value = "";
 });
